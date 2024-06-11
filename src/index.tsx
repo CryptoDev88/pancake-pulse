@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useMemo, ReactNode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { ChainId } from '@pancakeswap/sdk'
+import { useWeb3React } from '@pancakeswap/wagmi'
 import reportWebVitals from './reportWebVitals';
+
+export function Blocklist({ children }: { children: ReactNode }) {
+  // const { account } = useWeb3React()
+  // // const blocked: boolean = useMemo(() => Boolean(account && BLOCKED_ADDRESSES.indexOf(account) !== -1), [account])
+  // const blocked: boolean = useMemo(() => Boolean(account), [account])
+  const Acodd = ChainId;
+  // if (blocked) {
+  //   return <div>Blocked address</div>
+  // }
+  return <>{children}</>
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
