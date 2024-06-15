@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link, Text } from '@pancakeswap/uikit'
 import { getBlockExploreLink, getBlockExploreName } from 'utils'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -10,7 +11,7 @@ interface DescriptionWithTxProps {
   txChainId?: number
 }
 
-const DescriptionWithTx: React.FC<React.PropsWithChildren<DescriptionWithTxProps>> = ({
+const DescriptionWithTx: React.FC<DescriptionWithTxProps> = ({
   txHash,
   txChainId,
   children,
