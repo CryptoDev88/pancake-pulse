@@ -1,0 +1,390 @@
+{
+  "name": "Hendotech",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://dextop.pro/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "Hendotech",
+      "symbol": "HTC",
+      "address": "0x7276a9Ad19Fa163ADd216a485e2eD3A7A2EABCec",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://photos.pinksale.finance/file/pinksale-logo-upload/1694843002522-cb8ecb5c279267b10d29e6e486077c0d.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "DEX",
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "DEX",
+      "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0x4e2442A6f7AeCE64Ca33d31756B5390860BF973E",
+      "chainId": 4,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 4,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 5,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "name": "USD Coin",
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://dextop.pro/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Test USD Coin",
+      "address": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
+      "symbol": "tUSDC",
+      "decimals": 6,
+      "chainId": 4,
+      "logoURI": "https://dextop.pro/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Test USD Coin",
+      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+      "symbol": "tUSDC",
+      "decimals": 6,
+      "chainId": 5,
+      "logoURI": "https://dextop.pro/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Tether USD",
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://dextop.pro/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "DexTop",
+      "symbol": "DEX",
+      "address": "0x57953dAC106a4cDa11D90273b1B9D59E169533c0",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xb96724525818bd358675E09cA7457759cD493c30.png"
+    },
+    {
+      "name": "HEX",
+      "symbol": "HEX",
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://dextop.pro/images/tokens/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39.png"
+    },
+    {
+      "name": "USD Coin from Ethereum",
+      "symbol": "USDC",
+      "address": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
+      "chainId": 369,
+      "decimals": 6,
+      "logoURI": "https://dextop.pro/images/tokens/0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07.png"
+    },
+    {
+      "name": "Hex Orange Address",
+      "symbol": "HOA",
+      "address": "0x7901a3569679AEc3501dbeC59399F327854a70fe",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.dextop.pro/tokens/0x7901a3569679AEc3501dbeC59399F327854a70fe.png"
+    },
+    {
+      "name": "ZKZX",
+      "symbol": "ZKZX",
+      "address": "0x319e55Be473C77C35316651995C048a415219604",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeid2ty7afisdonqqizomkdexckm4irzvcve5xus6s32snhpwa2lc5i.ipfs.nftstorage.link/ryATaxZ-_400x400.jpg"
+    },
+    {
+      "name": "RH Louis Vuitton Bag",
+      "symbol": "BAG",
+      "address": "0x9966bDcbe018540A974B44CEcCD61E369aD6640D",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://bafybeidd5uofksyfcmcn3upm5hnfbwwalebkq55j7bt2i3ak7cct27qwei.ipfs.nftstorage.link/baggss.jpg"
+    },
+    {
+      "name": "Louis The Duck",
+      "symbol": "Duck",
+      "address": "0x88BdfdBbb5f6DeF9fA1B20eeFDB7FbF41Eb789CB",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x88bdfdbbb5f6def9fa1b20eefdb7fbf41eb789cb.png?size=lg"
+    },
+    {
+      "name": "Monsters INC",
+      "symbol": "MIKE",
+      "address": "0xa8DCD0EB29f6F918289b5C14634C1B5F443Af826",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://bafybeih3jylfpixy5yhwt3uwrjpgswi2r2g3ucengaxwggds525i5a2xvm.ipfs.nftstorage.link/miceee.jpg"
+    },
+    {
+      "name": "A Free Slice Of Pizza",
+      "symbol": "PIZZA",
+      "address": "0x3e7ae951d9925E6e5DE6140a99B90c3259445c9B",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeibupusgei6q3y3bljvoqcab5h4l2nrrxesysvkfv5eokffprsluiu.ipfs.nftstorage.link/GGKTILKWIAAMrCs%20(1).jpg"
+    },
+    
+    {
+      "name": "Degen Anonymous",
+      "symbol": "ANON",
+      "address": "0x075F7F657AEAD0e698EDb4E0A47d1DEF869536B4",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeihaflhk73gqke5j3mjewfz2k2vf3zar4f2cqpyscw2vhwym7xhfke.ipfs.nftstorage.link/photo_2024-01-28_14-45-37.jpg"
+    },
+    {
+      "name": "USDL",
+      "symbol": "USDL",
+      "address": "0x0dEEd1486bc52aA0d3E6f8849cEC5adD6598A162",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.dextop.pro/tokens/usdl.png"
+    },
+    
+    
+    {
+      "name": "A Free Game Of DUME",
+      "symbol": "DUME",
+      "address": "0x63bf22258aB005b9FB5087A2349701618BedbdA0",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://bafybeibn76otrocalt2dyn6vmpp4jbqnbixvf67jigb6qsc54me5tlcibu.ipfs.nftstorage.link/dume.jpg"
+    },
+    {
+      "name": "Teddy bear",
+      "symbol": "TED",
+      "address": "0xd6c31bA0754C4383A41c0e9DF042C62b5e918f6d",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xd6c31bA0754C4383A41c0e9DF042C62b5e918f6d.png"
+    },
+    
+    {
+      "name": "PulseX",
+      "symbol": "PLSX",
+      "address": "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0x95B303987A60C71504D99Aa1b13B4DA07b0790ab.png"
+    },
+    {
+      "name": "Wrapped BTC from Ethereum",
+      "symbol": "WBTC",
+      "address": "0xb17D901469B9208B17d916112988A3FeD19b5cA1",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://dextop.pro/images/tokens/0xb17D901469B9208B17d916112988A3FeD19b5cA1.png"
+    },
+    {
+      "name": "Dai Stablecoin from Ethereum",
+      "symbol": "DAI",
+      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dextop.pro/images/tokens/0xefD766cCb38EaF1dfd701853BFCe31359239F305.png"
+    },
+    {
+      "name": "Hex Bear",
+      "symbol": "HXB",
+      "address": "0x009a8670E74E1dda3E449E93A9308e5977949967",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/q9pk1dX/hxb.png"
+    },
+    {
+      "name": "Internet Money",
+      "symbol": "IM",
+      "address": "0xBBcF895BFCb57d0f457D050bb806d1499436c0CE",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://internetmoney.io/_next/image?url=https%3A%2F%2Fd295q1lbtarn4h.cloudfront.net%2Fimages%2Fim-token-small.webp&w=64&q=75"
+    },
+    {
+      "name": "DAI",
+      "symbol": "pDAI",
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.app.pulsex.com/images/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
+    },
+    {
+      "name": "Tetra",
+      "symbol": "TETRA",
+      "address": "0xAeC4C07537B03E3E62fc066EC62401Aed5Fdd361",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://static.wixstatic.com/media/90aff7_f58b35dfa0194d38a7ba8672a0dc901b~mv2.png/v1/fill/w_335,h_335,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TETRA.png"
+    },
+    {
+      "name": "Incentive Token",
+      "symbol": "INC",
+      "address": "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.app.pulsex.com/images/tokens/0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d.png"
+    },
+    
+    {
+      "name": "IMPLS Token",
+      "symbol": "IMPLS",
+      "address": "0x5f63BC3d5bd234946f18d24e98C324f629D9d60e",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeiaskey4a6rmteasvjse2lkr6qudnt6jpp3xlxubiq6swzg2u2d5rq.ipfs.nftstorage.link/photo_2024-02-10_14-06-57.jpg"
+    },
+    {
+      "name": "Pepe Token",
+      "symbol": "PEPE",
+      "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.app.pulsex.com/images/tokens/0x6982508145454Ce325dDbE47a25d4ec3d2311933.png"
+    },
+    {
+      "name": "Hedron Smores Address Token",
+      "symbol": "HSA",
+      "address": "0xe1d32634516926F0A440ef42b8fCD9fefe71ADBE",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xe1d32634516926f0a440ef42b8fcd9fefe71adbe.png?size=lg"
+    },
+    {
+      "name": "Kilobyte Token",
+      "symbol": "KB",
+      "address": "0xaC55cd59F4d97c50FBeC9b0812352e15BC5d2e59",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeihhucklcvdhalyxsuqfw6ujbxgu52xkf72dnmivvhw5mrw4e4vuse.ipfs.nftstorage.link/kilobyte-logo.FaNPUq7F.png"
+    },
+    
+    {
+      "name": "Hocus Pocus",
+      "symbol": "HOC",
+      "address": "0xd22E78C22D7E77229d60cc9fC57b0E294F54488E",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://bafybeie2rxp334ndy5g6ioxtyu4g7d7wzloxgxahmxadnt23piooftqrey.ipfs.nftstorage.link/HOC.png"
+    },
+    {
+      "name": "Mega",
+      "symbol": "MEGA",
+      "address": "0x8eDb13CE75562056DFf2221D193557Fb4A05770D",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.dextop.pro/tokens/mega.jpg"
+    },
+    
+    {
+      "name": "Richard's Only Brother",
+      "symbol": "ROB",
+      "address": "0x1c2766F5949A4aA5d4cf0439067051135ffc1b28",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/Y3990fG/rob12.png"
+    },
+    {
+      "name": "Lime Wire",
+      "symbol": "LMWR",
+      "address": "0xc5ffd4D51b0a25508513c0f1097929C8dE0A0E57",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.dextop.pro/tokens/limewire.png"
+    }
+    
+  ]
+}

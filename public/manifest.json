@@ -1,6 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "DexTop Finance",
+  "name": "DexTop Finance",
+  "description": "Farm DEX with DexTop LP Tokens",
+  "homepage_url": "https://dextop.pro",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1FC7D4",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +15,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

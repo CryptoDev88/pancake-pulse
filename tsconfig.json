@@ -1,36 +1,44 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "baseUrl": "src",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
+    // "extendedDiagnostics": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "downlevelIteration": true,
     "paths": {
       "@pancakeswap/sdk": ["../packages/swap-sdk/src/index.ts"],
-      // "@pancakeswap/wagmi/connectors/binanceWallet": ["../packages/wagmi/connectors/binanceWallet/index.ts"],
-      // "@pancakeswap/wagmi/connectors/miniProgram": ["../packages/wagmi/connectors/miniProgram/index.ts"],
-      // "@pancakeswap/wagmi/chains": ["../packages/wagmi/chains/index.ts"],
-      // "@pancakeswap/wagmi": ["../packages/wagmi/src/index.ts"],
-      // "@pancakeswap/hooks": ["../packages/hooks/src/index.ts"]
+      "@pancakeswap/wagmi/connectors/binanceWallet": ["../packages/wagmi/connectors/binanceWallet/index.ts"],
+      "@pancakeswap/wagmi/connectors/miniProgram": ["../packages/wagmi/connectors/miniProgram/index.ts"],
+      "@pancakeswap/wagmi/chains": ["../packages/wagmi/chains/index.ts"],
+      "@pancakeswap/wagmi": ["../packages/wagmi/src/index.ts"],
+      "@pancakeswap/hooks": ["../packages/hooks/src/index.ts"]
     }
   },
+  "exclude": [
+    "node_modules",
+    "cypress"
+  ],
   "include": [
-    "src",
-    "packages"
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
   ]
 }

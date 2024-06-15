@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { createStore, Store } from 'redux'
+import { legacy_createStore as createStore, Store } from 'redux'
 
 import { fetchTokenList, acceptListUpdate, addList, removeList, enableList, updateListVersion } from './actions'
 import { ListsState, createTokenListReducer, NEW_LIST_STATE } from './reducer'
