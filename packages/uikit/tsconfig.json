@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "ES5",
     "lib": ["dom", "DOM.Iterable", "ESNext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -12,10 +13,12 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
-    "jsx": "react-jsx"
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "types": ["vitest/globals"],
+  // "types": ["vitest/globals"],
   "include": ["src"],
   "exclude": ["node_modules", "src/**/*.stories.tsx", "src/__tests__/**/*", "src/testHelpers.tsx"]
 }
