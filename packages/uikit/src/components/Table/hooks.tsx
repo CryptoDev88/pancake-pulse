@@ -27,6 +27,7 @@ const sortByColumn = <T extends DataType>(
   columns.forEach((column) => {
     // if the row was found
     if (sortColumn === column.name) {
+      // @ts-ignore
       isAscending = column.sorted.asc;
 
       if (column.sort) {
@@ -83,20 +84,25 @@ const createReducer =
 
     switch (action.type) {
       case "SET_ROWS":
+        // @ts-ignore
         rows = [...action.data];
         // preserve sorting if a sort is already enabled when data changes
         if (state.sortColumn) {
+          // @ts-ignore
           rows = sortByColumn(action.data, state.sortColumn, state.columns);
         }
 
         if (state.paginationEnabled === true) {
+          // @ts-ignore
           rows = getPaginatedData(rows, state.pagination.perPage, state.pagination.page);
         }
 
         if (state.paginationEnabled === true) {
+          // @ts-ignore
           rows = getPaginatedData(rows, state.pagination.perPage, state.pagination.page);
         }
 
+        // @ts-ignore
         columnCopy = state.columns.map((column) => {
           if (state.sortColumn === column.name) {
             return {
@@ -150,14 +156,17 @@ const createReducer =
 
         // loop through all columns and set the sort parameter to off unless
         // it's the specified column (only one column at a time for )
+        // @ts-ignore
         columnCopy = state.columns.map((column) => {
           // if the row was found
           if (action.columnName === column.name) {
             if (action.isAscOverride !== undefined) {
               // force the sort order
+              // @ts-ignore
               isAscending = action.isAscOverride;
             } else {
               // if it's undefined, start by setting to ascending, otherwise toggle
+              // @ts-ignore
               isAscending = column.sorted.asc === undefined ? true : !column.sorted.asc;
             }
 
@@ -195,6 +204,7 @@ const createReducer =
           columnsByName: getColumnsByName(columnCopy),
         };
       case "GLOBAL_FILTER":
+        // @ts-ignore
         filteredRows = action.filter(state.originalRows);
         selectedRowsById = {};
         state.selectedRows.forEach((row) => {
@@ -204,6 +214,7 @@ const createReducer =
         return {
           ...state,
           rows: filteredRows.map((row) => {
+            // @ts-ignore
             return selectedRowsById[row.id] ? { ...row, selected: selectedRowsById[row.id] } : { ...row };
           }),
           filterOn: true,

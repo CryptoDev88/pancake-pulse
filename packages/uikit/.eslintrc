@@ -1,0 +1,20 @@
+{
+  "extends": "@pancakeswap-libs/eslint-config-pancake",
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {"ts-ignore": "allow-with-description"},
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "src/setupTests.[jt]s?(x)",
+          "src/testHelpers.[jt]s?(x)",
+          "**/*.test.[jt]s?(x)",
+          "rollup.config.js"
+        ]
+      }
+    ]
+  }
+}

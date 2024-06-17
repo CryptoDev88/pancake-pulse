@@ -25,6 +25,7 @@
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.3",
     "@pancakeswap/sdk": "^5.4.2",
+    "@pancakeswap/uikit": "^0.63.1",
     "@reduxjs/toolkit": "^2.2.5",
     "@sentry/react": "^8.9.2",
     "@tailwindcss/aspect-ratio": "^0.4.2",

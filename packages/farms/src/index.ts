@@ -4,7 +4,7 @@ import { ChainId } from '@pancakeswap/sdk'
 import { masterChefAddresses } from './const'
 import type { FarmWithPrices } from './farmPrices'
 import { farmV2FetchFarms, FetchFarmsParams, fetchMasterChefV2Data } from './fetchFarms'
-import { chainId } from 'wagmi'
+// import { chainId } from 'wagmi'
 
 const supportedChainId = [ChainId.GOERLI, ChainId.BSC, ChainId.BSC_TESTNET, ChainId.PULSE_CHAIN]
 export const bCakeSupportedChainId = [ChainId.BSC, ChainId.BSC_TESTNET]

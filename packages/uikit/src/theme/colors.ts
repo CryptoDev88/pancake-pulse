@@ -1,4 +1,4 @@
-import { vars } from "@pancakeswap/ui/css/vars.css";
+import { vars } from "../ui";
 
 export const lightColors = vars.colors;
 
