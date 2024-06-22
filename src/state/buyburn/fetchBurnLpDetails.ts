@@ -9,6 +9,7 @@ import { burnLps } from 'config/constants/burns'
 // import { chunk } from 'lodash'
 import { getBalanceNumber } from 'utils/formatBalance'
 import BigNumber from 'bignumber.js'
+import React from 'react'
 
 const burnLpCall = (chainId: ChainId, lpAddress: string) => {
   const burnLpAddress = getBurnAddress(chainId)
@@ -37,7 +38,7 @@ const getLiquidityCall = (chainId: ChainId, lpAddress: string) => {
 
 const getLiqudityUsd = async (lpAddress: string) => {
   let liqudityUsd = 0
-  const response = await fetch('https://api.dexscreener.com/latest/dex/pairs/pulsechain/' + lpAddress)
+  const response = await fetch(`https://api.dexscreener.com/latest/dex/pairs/pulsechain/${lpAddress}`)
   if (response.ok) {
     const data = await response.json()
     liqudityUsd = data.pair.liquidity.usd

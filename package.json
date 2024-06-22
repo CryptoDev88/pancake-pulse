@@ -158,6 +158,7 @@
     "start": "react-scripts start",
     "start:craco": "craco start",
     "build": "react-scripts build",
+    "build:craco": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
