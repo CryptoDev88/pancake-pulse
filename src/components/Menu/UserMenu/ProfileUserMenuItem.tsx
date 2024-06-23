@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import NextLink from 'next/link'
-import { Flex, Skeleton, UserMenuItem } from '@pancakeswap/uikit'
+import { Flex, Skeleton, UserMenuItem, Link } from '@pancakeswap/uikit'
 import { useWeb3React } from '@pancakeswap/wagmi'
 import { useTranslation } from 'contexts/Localization'
 
@@ -35,23 +34,23 @@ const ProfileUserMenuItem: React.FC<React.PropsWithChildren<ProfileUserMenuItemP
 
   if (!hasProfile) {
     return (
-      <NextLink href="/create-profile" passHref>
+      <Link href="/create-profile">
         <UserMenuItem as="a" disabled={disabled}>
           <Flex alignItems="center" justifyContent="space-between" width="100%">
             {t('Make a Profile')}
             <Dot />
           </Flex>
         </UserMenuItem>
-      </NextLink>
+      </Link>
     )
   }
 
   return (
-    <NextLink href={`/profile/${account?.toLowerCase()}/achievements`} passHref>
+    <Link href={`/profile/${account?.toLowerCase()}/achievements`}>
       <UserMenuItem as="a" disabled={disabled}>
         {t('Your Profile')}
       </UserMenuItem>
-    </NextLink>
+    </Link>
   )
 }
 

@@ -12,6 +12,13 @@ import './index.css'
 import App from './App'
 import Providers from './Providers'
 
+import { PancakeTheme } from '@pancakeswap/uikit'
+
+declare module 'styled-components' {
+  /* eslint-disable @typescript-eslint/no-empty-interface */
+  export interface DefaultTheme extends PancakeTheme {}
+}
+
 export function Updaters() {
   return (
     <>

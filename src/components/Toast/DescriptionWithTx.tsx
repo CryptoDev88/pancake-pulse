@@ -11,7 +11,7 @@ interface DescriptionWithTxProps {
   txChainId?: number
 }
 
-const DescriptionWithTx: React.FC<DescriptionWithTxProps> = ({
+const DescriptionWithTx: React.FC<React.PropsWithChildren<DescriptionWithTxProps>> = ({
   txHash,
   txChainId,
   children,

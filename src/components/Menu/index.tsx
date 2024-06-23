@@ -16,7 +16,7 @@ import { footerLinks } from './config/footerConfig'
 import { SettingsMode } from './GlobalSettings/types'
 
 const Menu = (props) => {
-  const { isDark, setTheme } = useTheme()
+  const { isDark } = useTheme()
   const cakePriceUsd = useCakeBusdPrice({ forceMainnet: true })
   const { currentLanguage, setLanguage, t } = useTranslation()
   const { pathname } = useLocation()
@@ -27,16 +27,9 @@ const Menu = (props) => {
   const activeMenuItem = getActiveMenuItem({ menuConfig: menuItems, pathname })
   const activeSubMenuItem = getActiveSubMenuItem({ menuItem: activeMenuItem, pathname })
 
-  const toggleTheme = useMemo(() => {
-    return () => setTheme(isDark ? 'light' : 'dark')
-  }, [setTheme, isDark])
-
   return (
     <>
       <UikitMenu
-        linkComponent={(linkProps) => {
-          return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
-        }}
         rightSide={
           <>
             {/* <GlobalSettings mode={SettingsMode.GLOBAL} /> */}
@@ -46,7 +39,6 @@ const Menu = (props) => {
         }
         // banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
         isDark={isDark}
-        toggleTheme={toggleTheme}
         currentLang={currentLanguage.code}
         langs={languageList}
         setLang={setLanguage}

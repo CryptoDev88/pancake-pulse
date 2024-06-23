@@ -7,7 +7,7 @@ import { ChainId } from '@pancakeswap/sdk'
 import { useActiveChainId } from './useActiveChainId'
 import { useSwitchNetworkLoading } from './useSwitchNetworkLoading'
 
-function useNetworkConnectorUpdater() {
+export function useNetworkConnectorUpdater() {
   const { chainId } = useActiveWeb3React();
   const [loading] = useSwitchNetworkLoading();
   const location = useLocation();

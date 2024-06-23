@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Flex, Heading, IconButton, ArrowBackIcon, NotificationDot } from '@pancakeswap/uikit'
-import { Link } from 'react-router-dom'
+import { Text, Flex, Heading, IconButton, ArrowBackIcon, NotificationDot, Link } from '@pancakeswap/uikit'
 import { useExpertModeManager } from 'state/user/hooks'
 import GlobalSettings from 'components/Menu/GlobalSettings'
 import Transactions from './Transactions'
@@ -32,7 +31,7 @@ const AppHeader: React.FC<Props> = ({ title, subtitle, helper, backTo, noConfig 
       <Flex alignItems="center" width="100%" style={{ gap: '16px' }}>
         {backTo &&
           (typeof backTo === 'string' ? (
-            <Link passHref href={backTo}>
+            <Link href={backTo}>
               <IconButton as="a" scale="sm">
                 <ArrowBackIcon width="32px" />
               </IconButton>

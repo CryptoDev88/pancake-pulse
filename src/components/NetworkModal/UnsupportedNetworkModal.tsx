@@ -2,10 +2,9 @@ import { Button, Grid, Message, MessageText, Modal, Text } from '@pancakeswap/ui
 import { useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useTranslation } from 'contexts/Localization'
 import { useSwitchNetwork, useSwitchNetworkLocal } from 'hooks/useSwitchNetwork'
-import Image from 'next/image'
 import useAuth from 'hooks/useAuth'
 import { useMenuItems } from 'components/Menu/hooks/useMenuItems'
-import { useRouter } from 'next/router'
+import { useLocation } from 'react-router-dom'
 import { getActiveMenuItem, getActiveSubMenuItem } from 'components/Menu/utils'
 import { useAccount, useNetwork } from 'wagmi'
 import { useMemo } from 'react'
@@ -22,7 +21,7 @@ export function UnsupportedNetworkModal({ pageSupportedChains }: { pageSupported
   const { logout } = useAuth()
   const { t } = useTranslation()
   const menuItems = useMenuItems()
-  const { pathname } = useRouter()
+  const { pathname } = useLocation()
 
   const title = useMemo(() => {
     const activeMenuItem = getActiveMenuItem({ menuConfig: menuItems, pathname })

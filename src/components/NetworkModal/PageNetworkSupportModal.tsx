@@ -1,17 +1,16 @@
 import { Button, Modal, Text, Grid, Box, Message, MessageText } from '@pancakeswap/uikit'
 import { ChainId } from '@pancakeswap/sdk'
-import Image from 'next/future/image'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { chains } from 'utils/wagmi'
 import { useTranslation } from 'contexts/Localization'
 import { useMemo } from 'react'
 import { useHistory } from 'contexts/HistoryContext'
-import NextLink from 'next/link'
 import { useMenuItems } from 'components/Menu/hooks/useMenuItems'
 import { getActiveMenuItem, getActiveSubMenuItem } from 'components/Menu/utils'
-import { useRouter } from 'next/router'
+import { Link } from '@pancakeswap/uikit'
 import useAuth from 'hooks/useAuth'
+import { useLocation } from 'react-router-dom'
 
 export function PageNetworkSupportModal() {
   const { t } = useTranslation()
@@ -25,7 +24,7 @@ export function PageNetworkSupportModal() {
   const lastValidPath = historyManager?.history?.find((h) => ['/swap', 'liquidity', '/'].includes(h))
 
   const menuItems = useMenuItems()
-  const { pathname, push } = useRouter()
+  const { pathname } = useLocation()
 
   const { title, image } = useMemo(() => {
     const activeMenuItem = getActiveMenuItem({ menuConfig: menuItems, pathname })
@@ -44,7 +43,7 @@ export function PageNetworkSupportModal() {
 
         {image && (
           <Box mx="auto" my="8px" position="relative" width="100%" minHeight="250px">
-            <Image src={image} alt="feature" fill style={{ objectFit: 'contain' }} unoptimized />
+            <img src={image} alt="feature" />
           </Box>
         )}
         <Text small>
@@ -70,7 +69,7 @@ export function PageNetworkSupportModal() {
             variant="secondary"
             onClick={() =>
               logout().then(() => {
-                push('/')
+                // push('/')
               })
             }
           >
@@ -78,9 +77,9 @@ export function PageNetworkSupportModal() {
           </Button>
         )}
         {foundChain && lastValidPath && (
-          <NextLink href={lastValidPath} passHref>
+          <Link href={lastValidPath}>
             <Button as="a">{t('Stay on %chain%', { chain: foundChain.name })}</Button>
-          </NextLink>
+          </Link>
         )}
       </Grid>
     </Modal>

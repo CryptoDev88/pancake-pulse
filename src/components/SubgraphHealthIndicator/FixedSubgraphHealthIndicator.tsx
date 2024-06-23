@@ -1,10 +1,8 @@
-import { useRouter } from 'next/router'
-import dynamic from 'next/dynamic'
-
-const SubgraphHealthIndicator = dynamic(() => import('components/SubgraphHealthIndicator'), { ssr: false })
+import { useLocation } from 'react-router-dom'
+import SubgraphHealthIndicator from '../SubgraphHealthIndicator'
 
 export const FixedSubgraphHealthIndicator = () => {
-  const { pathname } = useRouter()
+  const { pathname } = useLocation()
   const isOnNftPages = pathname.includes('nfts')
   return isOnNftPages ? <SubgraphHealthIndicator subgraphName="pancakeswap/nft-market" /> : null
 }

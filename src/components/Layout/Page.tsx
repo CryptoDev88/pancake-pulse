@@ -23,8 +23,8 @@ const StyledPage = styled(Container)`
   }
 `
 
-export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
-  const { t } = useTranslation()
+export const PageMeta: React.FC<React.PropsWithChildren<{ symbol?: string }>> = ({ symbol }) => {
+  const { t, currentLanguage: { locale } } = useTranslation()
   const { pathname } = useLocation()
 
   const cakePriceUsd = useCakeBusdPrice({ forceMainnet: true })

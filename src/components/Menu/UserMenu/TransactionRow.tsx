@@ -45,7 +45,7 @@ const renderIcon = (txn: TransactionDetails) => {
   )
 }
 
-const TransactionRow: React.FC<TransactionRowProps>> = ({ txn, chainId }) => {
+const TransactionRow: React.FC<TransactionRowProps> = ({ txn, chainId }) => {
   const { t } = useTranslation()
 
   if (!txn) {
