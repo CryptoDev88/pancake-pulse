@@ -40,6 +40,8 @@ export function Blocklist({ children }: { children: ReactNode }) {
   return <>{children}</>
 }
 
+console.log("start")
+
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>

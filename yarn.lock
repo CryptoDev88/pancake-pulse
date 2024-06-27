@@ -4025,7 +4025,7 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-slot@^1.0.0", "@radix-ui/react-slot@^1.0.2":
+"@radix-ui/react-slot@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-slot/-/react-slot-1.0.2.tgz#a9ff4423eade67f501ffb32ec22064bc9d3099ab"
   integrity sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==
@@ -6437,7 +6437,7 @@
     hoist-non-react-statics "^3.3.0"
     redux "^4.0.0"
 
-"@types/react-router-dom@^5.1.5", "@types/react-router-dom@^5.1.7":
+"@types/react-router-dom@^5.1.7":
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.3.tgz#e9d6b4a66fcdbd651a5f106c2656a30088cc1e83"
   integrity sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==
@@ -6990,12 +6990,12 @@
   dependencies:
     "@babel/core" "^7.23.9"
 
-"@vanilla-extract/css-utils@^0.1.2", "@vanilla-extract/css-utils@^0.1.4":
+"@vanilla-extract/css-utils@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/css-utils/-/css-utils-0.1.4.tgz#ea9c919109ce642f6ebdb0d11145187003d49758"
   integrity sha512-3WRxMGa/VQaL32jZqRUpnnoVFSws5iPIUpQr+XlT4jXhtMeKYcA20rFK2k2Amkg04sqrO84A8hNMeABWZQesEg==
 
-"@vanilla-extract/css@^1.14.0", "@vanilla-extract/css@^1.9.0":
+"@vanilla-extract/css@^1.14.0":
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/css/-/css-1.15.3.tgz#debf04f61496e290b53f045a2cb6966cc1ba9448"
   integrity sha512-mxoskDAxdQAspbkmQRxBvolUi1u1jnyy9WZGm+GeH8V2wwhEvndzl1QoK7w8JfA0WFevTxbev5d+i+xACZlPhA==
@@ -7036,7 +7036,7 @@
   resolved "https://registry.yarnpkg.com/@vanilla-extract/private/-/private-1.0.5.tgz#8c08ac4851f4cc89a3dcdb858d8938e69b1481c4"
   integrity sha512-6YXeOEKYTA3UV+RC8DeAjFk+/okoNz/h88R+McnzA2zpaVqTR/Ep+vszkWYlGBcMNO7vEkqbq5nT/JMMvhi+tw==
 
-"@vanilla-extract/sprinkles@^1.4.1", "@vanilla-extract/sprinkles@^1.6.2":
+"@vanilla-extract/sprinkles@^1.6.2":
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/sprinkles/-/sprinkles-1.6.2.tgz#014831f678ccacc0802f7e0aa4a88ccfb6832667"
   integrity sha512-SZdrxzpAFIpRImqY/N54wODYyn6swuz+Lerd7Y1ZX5/148e6J9smpsfBf/iQpmGo17OS9b+AdYBOn7OF9cn/vA==

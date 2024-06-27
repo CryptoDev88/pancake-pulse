@@ -26,4 +26,11 @@ module.exports = {
       return webpackConfig;
     },
   },
+  jest: {
+    globals: {
+      babelConfig: {
+        plugins: ["@vanilla-extract/babel-plugin"],
+      },
+    },
+  },
 };
